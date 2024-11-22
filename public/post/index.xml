@@ -45,10 +45,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mi primer imagen&#34; srcset=&#34;
-               /post/prueba2/logo_hu14013867037399805534.webp 400w,
-               /post/prueba2/logo_hu5470350924882806580.webp 760w,
+               /post/prueba2/logo_hu396902030521400597.webp 400w,
+               /post/prueba2/logo_hu10291840187862898675.webp 760w,
                /post/prueba2/logo_hu480207897703727208.webp 1200w&#34;
-               src=&#34;http://localhost:4321/post/prueba2/logo_hu14013867037399805534.webp&#34;
+               src=&#34;http://localhost:4321/post/prueba2/logo_hu396902030521400597.webp&#34;
                width=&#34;512&#34;
                height=&#34;512&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -287,7 +287,7 @@
 
 
 
-&lt;div id=&#34;chart-745913862&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-951628347&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -305,7 +305,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-745913862&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-951628347&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
